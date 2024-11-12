@@ -1,3 +1,26 @@
+
+/* Place that will hold all the general css and all color variables*/
+:root {
+    --header-bg: #222;
+    --header-fg: #EEE;
+    --header-bd: transparent;
+
+    --nav-a-bg: #333;
+    --nav-a-sh: #DDD;
+
+    --footer-bg: #222;
+    --footer-fg: #EEE;
+}
+
+html.light {
+    --header-bg: #EEE;
+    --header-fg: #222;
+    --header-bd: #CCC;
+
+    --nav-a-bg: #DDD;
+    --nav-a-sh: #222;
+}
+
 * {
     margin: 0;
     padding: 0;
