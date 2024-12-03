@@ -1,0 +1,13 @@
+[
+    {
+        "gameId": 1,
+        "comments": [
+            {
+                "commentId": 1,
+                "profileId": 1,
+                "content": "",
+                "likes": 0
+            }
+        ]
+    }
+]

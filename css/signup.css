@@ -1,0 +1,78 @@
+
+/* These are the styles for the sign in page */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-up-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px;
+    margin-top: 5vh;
+
+    height: max-content;
+
+    border: solid 2px #888;
+    border-radius: 40px;
+    box-shadow: 5px 5px 20px #AAA;
+
+}
+
+#sign-up-form-entries-div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 10px;
+}
+
+.sign-up-label {
+    font-size: 20pt;
+    width: 250px;
+}
+
+.sign-up-tb {
+    font-size: 24pt;
+    width: 400px;
+
+    padding: 5px 0 5px 0;
+
+    border: solid 2px #888;
+    border-radius: 20px;
+
+    text-indent: 20px;
+}
+
+#sign-up-btn-div {
+    margin-top: 10px;
+}
+
+#sign-up-btn-div > a {
+    text-decoration: none;
+}
+
+.sign-up-btn {
+    width: 200px;
+    border: solid 1px #444;
+    border-radius: 10px;
+    font-size: 32px;
+    padding: 10px 20px;
+
+    color: #222;
+    background-color: #EEE;
+
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.sign-up-btn:hover {
+    background-color: #DDD;
+    color: #333;
+    cursor: pointer;
+}
+

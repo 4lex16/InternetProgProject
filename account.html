@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>Account Name</title>
     <link rel="stylesheet" type="text/css" href="css/account.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/general/style.css">
+    <link rel="stylesheet" type="text/css" href="css/general/header.css">
+    <link rel="stylesheet" type="text/css" href="css/general/footer.css">
 </head>
 <body>
 <header>
@@ -15,11 +15,29 @@
         <a href="index.html">Home</a>
         <a href="dashboard.html">Dashboard</a>
         <a href="account.html">Account Name</a>
-        <a href="signin.html" id="sign-in-link">Sign In</a>
+        <a href="signup.html" id="sign-in-link">Sign In</a>
     </nav>
 </header>
 <main>
-
+    <div>
+    <!--   Account Profile WIP when profiles actually work   -->
+    </div>
+    <form id="sign-in-form">
+        <div id="sign-in-entries-div">
+            <div>
+                <label class="sign-in-label" for="email-tb">Enter Email:</label>
+                <input class="sign-in-tb" id="email-tb" type="text">
+            </div>
+            <div>
+                <label class="sign-in-label" for="password-tb">Enter Password:</label>
+                <input class="sign-in-tb" id="password-tb" type="text">
+            </div>
+        </div>
+        <div id="sign-in-btn-div">
+            <input onclick="notImplemented()" class="sign-in-btn" type="button" value="Sign In">
+            <a class="sign-in-link" href="signup.html">Don't have an account?</a>
+        </div>
+    </form>
 </main>
 <footer>
     <!-- Top Section -->
@@ -51,5 +69,6 @@
         <p>@ 2024 Play Many Games Archives</p>
     </div>
 </footer>
+<script src="script/main.js"></script>
 </body>
 </html>

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/general/style.css">
+    <link rel="stylesheet" type="text/css" href="css/general/header.css">
+    <link rel="stylesheet" type="text/css" href="css/general/footer.css">
 </head>
 <body>
     <header>
@@ -15,18 +15,19 @@
             <a href="index.html">Home</a>
             <a href="dashboard.html">Dashboard</a>
             <a href="account.html">Account Name</a>
-            <a href="signin.html" id="sign-in-link">Sign In</a>
+            <a href="signup.html" id="sign-in-link">Sign In</a>
         </nav>
     </header>
     <main>
         <div>
-        <!-- Locator (Heading) -->
+            <h1 id="locator-h1">Game Browser</h1>
         </div>
-        <div>
-        <!-- Games Loaded automaticly-->
+        <div id="games-browser-div">
+        <!-- Games Loaded automatically-->
+
         </div>
     </main>
-    <footer>
+    <footer class="footer-absolute">
         <!-- Top Section -->
         <div class="footer-top">
             <div class="footer-description">
@@ -56,5 +57,8 @@
             <p>@ 2024 Play Many Games Archives</p>
         </div>
     </footer>
+    <!--<script src="script/index.js"></script>-->
+    <script src="script/gameRouting.js" type="module"></script>
+    <script src="script/main.js" type="module"></script>
 </body>
 </html>

@@ -1,11 +1,6 @@
 
 /* This place contains all the styles related to the footer */
 footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -15,6 +10,20 @@ footer {
     padding: 30px 30px 10px 30px;
 
     height: 200px;
+}
+
+.footer-absolute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footer-static {
+    position: static;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 .footer-top {

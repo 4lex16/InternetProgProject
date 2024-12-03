@@ -1,0 +1,14 @@
+[
+    {
+        "profileId": 1,
+        "username": "",
+        "email": "",
+        "stats": [
+            {
+                "gameId": 1,
+                "playCount": 1,
+                "playTime": 1
+            }
+        ]
+    }
+]
