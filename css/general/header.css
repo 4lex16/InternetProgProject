@@ -14,8 +14,13 @@ header {
     border-bottom: solid 1px var(--header-bd);
 }
 
-header > h1 {
+header > h1 > a {
     color: var(--header-fg);
+    text-decoration: none;
+}
+
+header > h1:hover > a {
+    text-decoration: underline;
 }
 
 nav {
@@ -47,8 +52,4 @@ nav > a {
 nav > a:hover {
     background-color: var(--nav-a-bg);
     box-shadow: 0 0 2px var(--nav-a-sh);
-}
-
-#sign-in-link {
-    display: none;
 }

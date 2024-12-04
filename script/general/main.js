@@ -1,4 +1,4 @@
-
+// This script manages all general functions needed
 function checkScroll() {
     if (document.body.scrollHeight > window.innerHeight) {
         document.querySelector("footer").classList.add('footer-static');
