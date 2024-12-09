@@ -1,6 +1,6 @@
 // This script manages all general functions needed
 function checkScroll() {
-    if (document.body.scrollHeight > window.innerHeight) {
+    if (document.body.scrollHeight + 260 > window.innerHeight) {
         document.querySelector("footer").classList.add('footer-static');
         document.querySelector("footer").classList.remove('footer-absolute');
     } else {

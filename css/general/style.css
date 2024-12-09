@@ -10,6 +10,9 @@
 
     --footer-bg: #222;
     --footer-fg: #EEE;
+
+    --body-bg: #333;
+    --body-fg: #FFF;
 }
 
 html.light {
@@ -29,4 +32,6 @@ html.light {
 
 body {
     font-family: sans-serif;
+    background-color: var(--body-bg);
+    color: var(--body-fg);
 }
