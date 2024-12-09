@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Catgirl Purrgatory: Meowstery of the Cultnip",
-        "img": "assets/Catgirl_Cover_art.png",
+        "img": "Catgirl_Cover_Art",
         "path": "games/Catgirls/Catgirls",
         "description": {
             "content": "Catgirl Purrgatory: Meowstery of the Cultnip follows the tale of a boy disguising himself as a cultist to save his feline friend who was catnapped to perform frankenstein-like experiments to create catgirls. Naturally, these experiments go awry and the result is the release of monstrous and bloodthirsty catgirls. This game was part of The Secret Cult Horror Jam",
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "title": "Haunted",
-        "img": "assets/Haunted_Cover_art.png",
+        "img": "Haunted_Cover_Art",
         "path": "games/HorrorJam2024/HorrorJam",
         "description": {
             "content": "Embody a hunter with their trusty pump shotgun to hunt some deer in this duck-hunt inspired arcade shooter, just deers, nothing else don't worry =) This game was part of the Godot Wild Jam #74",
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "title": "The Tortoise and the Hare",
-        "img": "assets/Tortoise_Cover_art.png",
+        "img": "Tortoise_Cover_Art",
         "path": "games/The Tortoise and the Hare/The Tortoise and the Hare",
         "description": {
             "content": "A game of the Hare fighting the Tortoise after it's initial defeat. This game was part of the DINGO game-jam 2024",

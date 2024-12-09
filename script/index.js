@@ -2,7 +2,7 @@
 
 // All constant's needed
 const gamesDiv = document.querySelector('#games-div')
-// Retrieves all the Games from "json/games.json"
+// Retrieves all the Games from "json/games.json" via githubusercontent so it works on pages
 async function getGames() {
     try {
         const res = await fetch('https://raw.githubusercontent.com/4lex16/InternetProgProject/refs/heads/main/json/games.json');
@@ -12,7 +12,7 @@ async function getGames() {
     }
 }
 
-// Loads all the Games onto the htwml page
+// Loads all the Games onto the html page
 async function loadGames() {
     const data = await getGames();
     let gamesHtml = "";
@@ -20,7 +20,7 @@ async function loadGames() {
         gamesHtml += `
             <a id="game-link" href="gameplayer.html" onclick="setGameCookie(${value.id})">
             <div id="game-div">
-                <img src="../${value.img}">
+                <img src="https://raw.githubusercontent.com/4lex16/InternetProgProject/refs/heads/main/assets/${value.img}.img">
                 <h1>${value.title}</h1>
             </div>
             </a>
