@@ -5,7 +5,7 @@ const gamesDiv = document.querySelector('#games-div')
 // Retrieves all the Games from "json/games.json"
 async function getGames() {
     try {
-        const res = await fetch('./../json/games.json');
+        const res = await fetch('https://raw.githubusercontent.com/4lex16/InternetProgProject/refs/heads/main/json/games.json');
         return await res.json();
     } catch (error) {
         console.error(error);
