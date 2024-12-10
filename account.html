@@ -10,17 +10,16 @@
 </head>
 <body>
 <header>
-    <h1>PMG Archive</h1>
+    <h1><a href="index.html">PMG Archives</a></h1>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="dashboard.html">Dashboard</a>
-        <a href="account.html">Account Name</a>
-        <a href="signup.html" id="sign-in-link">Sign In</a>
+        <a href="index.html">Games</a>
+        <a href="account.html">Sign In</a>
     </nav>
 </header>
 <main>
-    <div>
+    <div id="account-div">
     <!--   Account Profile WIP when profiles actually work   -->
+
     </div>
     <form id="sign-in-form">
         <div id="sign-in-entries-div">
@@ -34,7 +33,7 @@
             </div>
         </div>
         <div id="sign-in-btn-div">
-            <input onclick="notImplemented()" class="sign-in-btn" type="button" value="Sign In">
+            <input id="sign-in-btn" class="sign-in-btn" type="button" value="Sign In">
             <a class="sign-in-link" href="signup.html">Don't have an account?</a>
         </div>
     </form>
@@ -71,5 +70,6 @@
 </footer>
 <script src="script/general/main.js"></script>
 <script src="script/account.js"></script>
+<script src="script/general/header.js"></script>
 </body>
 </html>

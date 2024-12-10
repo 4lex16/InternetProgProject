@@ -1,12 +1,14 @@
 // This script manages the profiles
 
+// All constants needed
+
 // Adds profile to "json/profiles.json"
-function createProfile(username, email) {
+function createProfile() {
 
 }
 
 // Adds information of who is logged into localStorage
-function login(username, email) {
+function login() {
 
 }
 

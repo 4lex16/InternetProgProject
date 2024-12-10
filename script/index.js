@@ -27,6 +27,7 @@ async function loadGames() {
         `
    };
     gamesDiv.innerHTML = gamesHtml;
+    window.resizeBy(0, 0);
 }
 
 function setGameCookie(id) {
