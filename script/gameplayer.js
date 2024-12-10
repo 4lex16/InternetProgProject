@@ -4,6 +4,7 @@
 const titleH1 = document.querySelector('#title-h1')
 const gameDiv = document.querySelector('#game-div');
 const descDiv = document.querySelector('#description-div');
+const commDiv = document.querySelector('#comments-div')
 
 // Retrieves the game chosen to be played
 async function getGames() {
@@ -46,3 +47,30 @@ async function loadSelectedGame() {
 }
 
 document.addEventListener('DOMContentLoaded', loadSelectedGame);
+
+async function getComments() {
+    // I tried to use AJAX for this but It would want to work
+    const game = await getSelectedGame();
+    try {
+        const res = await fetch(`https://jsonplaceholder.typicode.com/comments?postId=${game.id}`);
+        return await res.json();
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+async function loadComments() {
+    const comments = await getComments();
+    let commHTML = '';
+    for (let i = 0; i < comments.length; i++) {
+        commHTML += `
+            <div class="comment-div">
+                <h3 class="comment-header">${comments[i].name}</h3>
+                <p class="comment-content">${comments[i].body}</p>
+            </div> 
+        `;
+    }
+    commDiv.innerHTML = commHTML;
+}
+
+document.addEventListener('DOMContentLoaded', loadComments);

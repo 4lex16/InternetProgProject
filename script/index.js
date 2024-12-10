@@ -20,7 +20,7 @@ async function loadGames() {
         gamesHtml += `
             <a id="game-link" href="gameplayer.html" onclick="setGameCookie(${value.id})">
             <div id="game-div">
-                <img src="https://raw.githubusercontent.com/4lex16/InternetProgProject/refs/heads/main/assets/${value.img}.img">
+                <img src="https://raw.githubusercontent.com/4lex16/InternetProgProject/refs/heads/main/assets/${value.img}.png">
                 <h1>${value.title}</h1>
             </div>
             </a>

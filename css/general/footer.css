@@ -9,7 +9,7 @@ footer {
 
     padding: 30px 30px 10px 30px;
 
-    height: 200px;
+    height: 100px;
 }
 
 .footer-absolute {
@@ -41,7 +41,7 @@ footer {
 
     color: var(--footer-fg);
 
-    width: 200px;
+
 }
 
 .footer-navigation {

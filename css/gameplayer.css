@@ -1,0 +1,53 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 300px;
+}
+
+#title-h1 {
+    font-size: 32pt;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#description-div {
+    font-size: 16pt;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    width: 1280px;
+    height: max-content;
+}
+
+#comments-div {
+    width: 1280px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.comment-div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 1280px;
+    height: max-content;
+    font-size: 12pt;
+    background-color: #444;
+    padding: 12px;
+}
+
+.comment-header {
+    font-size: 16pt;
+
+}
+
+.comment-content {
+    font-size: 12pt;
+}
